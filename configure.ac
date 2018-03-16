@@ -4,7 +4,7 @@
 AC_PREREQ([2.69])
 AC_INIT(bpf-tools, 0.1, marianp@mellanox.com)
 AC_CONFIG_SRCDIR([sample/sample-user.c])
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([foreign])
 
 # Checks for programs.
 AC_PROG_CC([clang])
